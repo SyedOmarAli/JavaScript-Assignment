@@ -14,13 +14,19 @@ for (var i = 0; i < 6; i++) {
 if (avgMarks < 60) {
     console.log("Grade : F");
 }
+
 else if (avgMarks < 70) {
     console.log("Grade : D");
 }
+
 else if (avgMarks < 80) {
     console.log("Grade : C");
-} else if (avgMarks < 90) {
+} 
+
+else if (avgMarks < 90) {
     console.log("Grade : B");
-} else if (avgMarks < 100) {
+} 
+
+else if (avgMarks < 100) {
     console.log("Grade : A");
 }
